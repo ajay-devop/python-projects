@@ -1,0 +1,150 @@
+class AjaysVehicle:
+    def servicecenter(rp):
+        print("\t\t\t\t Ajas Vehicle")
+        print("\t\t\t\t Since-1997")
+        print("\t\t\t\t www.ServiceyGyus.com")
+        print("\n\n\t\t\t\t\tAjays Vehicle services")
+        
+    def services(rp):
+        x=["car","bike","bus",]
+        for k in x:
+            print("\n\n",k)
+            
+    def car(rp):
+        x=["Car-wash","Oil-Change","Repairing-Parts","repairing-No-wash","Changing-Internal-Parts"]
+        y=[1000,800,3000,1500,5000]
+        car_={"CAR SERVICE Types":x,"Price":y}
+        import pandas as pd
+        df=pd.DataFrame(car_)
+        print("\n\n CAR SERVICE \n\n")
+        print(df)
+        d=[]
+        while x:
+            x=True
+            b=int(input("Enter the value position : "))
+            c=int(input("Enter the Quantity:"))
+            z=car_["Price"][b]  
+            y=z*c
+            d.append(y)
+            x=input("you want to reservice(yes/no):")
+            if(x=="no"):
+                print('Thank you')
+                break
+        t=sum(d)
+        m=(sum(d)*0.05)
+        k=t+m
+        print("servicetax = 5%")
+        print("Total Amount:",t,"Rupees")
+        print("Total Amount Including Service Tax:",k,"Rupees")
+        
+        
+    def bike(rp):
+        x=["Bike-Wash","Oil-change","Repairning","Repair-new-parts","Only-service"]
+        y=[500,700,1000,2000,2500,]
+        bike_={"Bike Service Types":x,"Price":y}
+        import pandas as pd
+        df=pd.DataFrame(bike_)
+        print("\n\n Bike service \n\n")
+        print(df)
+        d=[]
+        while x:
+            x=True
+            b=int(input("Enter the value position : "))
+            c=int(input("Enter the Quantity:"))
+            z=bike_["Price"][b]
+            y=z*c
+            d.append(y)
+            x=input("you want to reservice(yes/no):")
+            if(x=="no"):
+                print('Thank you')
+                break
+        t=sum(d)
+        m=(sum(d)*0.05)
+        k=t+m
+        print("servicetax = 5%")
+        print("Total Amount:",t,"Rupees")
+        print("Total Amount Including Service Tax:",k,"Rupees")
+        
+    
+        
+        
+    def bus(rp):
+        x=["Bus-Wash","Bus-Service","Bus-Oil-Change","Changing-Parts"]
+        y=[1000,2000,3000,8000]
+        bus_={"Bus Service Types":x,"Price":y}
+
+        import pandas as pd
+        df=pd.DataFrame(bus_)
+        print("\n\n Bus Service \n\n")
+        print(df)
+        d=[]
+        while x:
+            x=True
+            b=int(input("Enter the value position : "))
+            c=int(input("Enter the Quantity:"))
+            z=bus_["Price"][b]
+            y=z*c
+            d.append(y)
+            x=input("you want to reservice(yes/no):")
+            if(x=="no"):
+                print('Thank you')
+                break
+        t=sum(d)
+        m=(sum(d)*0.05)
+        k=t+m
+        print("servicetax = 5%")
+        print("Total Amount:",t,"Rupees")
+        print("Total Amount Including Service Tax:",k,"Rupees")
+       
+    def cycle(rp):
+        x=["puncher-repair","tier-change","parts-repair","oiling"]
+        y=[50,500,400,200]
+        cycle_={"cycle Service Types":x,"Price":y}
+
+        import pandas as pd
+        df=pd.DataFrame(cycle_)
+        print("\n\n Cycle Service \n\n")
+        print(df)
+        d=[]
+        while x:
+            x=True
+            b=int(input("Enter the value position : "))
+            c=int(input("Enter the Quantity:"))
+            z=cycle_["Price"][b]
+            y=z*c
+            d.append(y)
+            x=input("you want to reservice(yes/no):")
+            if(x=="no"):
+                print('Thank you')
+                break
+        t=sum(d)
+        m=(sum(d)*0.05)
+        k=t+m
+        print("servicetax = 5%")
+        print("Total Amount:",t,"Rupees")
+        print("Total Amount Including Service Tax:",k,"Rupees")
+
+
+---------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+run this code  by ----->
+obj=AjaysVehicle()
+obj.servicecenter()
+obj.services()
+
+---------------------------------------------------------------------------------------------------------------------------------------------------------
+
+after that run this code------>
+x=input("Enter the Type of service : ")
+if x=="car":
+    print(obj.car())
+elif x=="bike":
+    print(obj.bike())
+elif x=="bus":
+    print(obj.bus())
+elif x=="cycle":
+    print(obj.cycle())
+else:
+    print("wrong option: \nplease again choose the right option:")
+       

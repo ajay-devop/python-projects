@@ -1,0 +1,198 @@
+def Bus_Booking():
+    name=input("Enter your name:-")
+    print(name)def Bus_Booking():
+          if a==1:
+              print("your Bus timing is 5am")
+          elif a==2:
+                  print("your bus timing is 7am")
+          elif a==3:
+                  print("your bus timing is 11am")
+          elif a==4:
+                  print("your bus timing is 7pm")
+          elif a==5:
+                  print("your bus timing is 9pm")
+          else:
+                 print("please choose correct timing and try again")
+    elif b==4:
+          print("You have choosen  Rastogi travels to continue your Jurney")
+          print("From below timing schedule you can choose your slot")
+          a=["1-> 7.45am","2-> 9am","3-> 11.30am","4-> 7.45pm","5-> 9.25pm"]
+          for k in a:
+              print(k)
+          a=int(input("Enter the slot value you want to choose:-"))
+          if a==1:
+                print("your Bus timing is 7.45am")
+          elif a==2:
+                  print("your bus timing is 9am")
+          elif a==3:
+                  print("your bus timing is 11.30am")
+          elif a==4:
+                  print("your bus timing is 7.45pm")
+          elif a==5:
+                  print("your bus timing is 9.25pm")
+          else:
+                 print("please choose correct timing and try again")
+                 
+    else:
+        print("No other travel Agency is available pls select from above only")
+    print("From below select the type of seat you want")
+    type=["chair","sleeper"]
+    print(type,end="\n ")
+    c=input("Enter your type:-")
+    if c=="chair":
+        print("AC","\nNon-AC")
+        d=input("enter pls:-")
+        if d=="AC":
+            print("you choose AC chairs that cost you 100extra only")
+        elif d=="non-ac":
+            print("you choose NON-AC chairs \nno extra charges")
+        else:
+            print(" ")
+    elif c=="sleeper":
+          print("sleeper have only ac seats and it cost you 200 extra charges only")
+    print("\t\t\t\tYOUR TICKET IS GENRATING PLEASE WAIT FOR A WHILE:-")
+    print("__________________________")
+    print("__________________________")
+    print("_______________
+    age=int(input("Enter your age:-"))
+    print("your age is:-",age)
+    gender=input("Enter your gender:(male/female/other):-")
+    print(gender)
+    destination=input("Enter your destination:-")
+    pickup_point=input("Enter your Pickup point:-")
+    travelling_date=input("Enter your Travelling date:-")
+    print("your pickup point is",pickup_point,"\nand your destination is",destination,"\nand your travelling date is",travelling_date)
+    a=input("Please insure that above details are True and you want to book your tickets(yes\no):")
+    if a=="no":
+        print("Please Enter valid details and try again later")
+    else:
+         print("Ok now select from the menu from which Traveling company you want to travel:-")
+         travel_company=["1-Laxmi travels","2-Agrawal travels","3-Govind Travels","4-Rastogi Travels"]
+         for k in travel_company:
+                print(k)
+    b=int(input("Enter your Prefrence(1/2/3/4):-"))
+    if b==1:
+        print("You have choosen Laxmi Travels to continue your Jurney")
+        print("From below timing schedule you can choose your slot")
+        a=["1-> 6am","2-> 8am","3-> 11am","4-> 4pm","5-> 7pm"]
+        for k in a:
+            print("\n",k)
+        a=int(input("Enter the slot value you want to choose:-"))
+        if a==1:
+            print("your Bus timing is 6am")
+        elif a==2:
+              print("your bus timing is 8am")
+        elif a==3:
+              print("your bus timing is 11am")
+        elif a==4:
+              print("your bus timing is 4pm")
+        elif a==5:
+              print("your bus timing is 7pm")
+        else:
+            print("please choose correct timing and try again")
+    elif b==2:
+          print("You have choosen  Agrawal travels to continue your Jurney")
+          print("From below timing schedule you can choose your slot")
+          a=["1-> 5.45am","2-> 7.45am","3-> 11.30am","4-> 7pm","5-> 9pm"]
+          for k in a:
+              print(k)
+          a=int(input("Enter the slot value you want to choose:-"))
+          if a==1:
+                print("your Bus timing is 5.45am")
+          elif a==2:
+                  print("your bus timing is 7.45am")
+          elif a==3:
+                  print("your bus timing is 11.30am")
+          elif a==4:
+                  print("your bus timing is 7pm")
+          elif a==5:
+                  print("your bus timing is 9pm")
+          else:
+                 print("please choose correct timing and try again")
+    elif b==3:
+          print("You have choosen  Govind travels to continue your Jurney")
+          print("From below timing schedule you can choose your slot")
+          a=["1-> 5am","2-> 7am","3-> 11am","4-> 7pm","5-> 9pm"]
+          for k in a:
+              print(k)
+          a=int(input("Enter the slot value you want to choose:-"))
+          if a==1:
+              print("your Bus timing is 5am")
+          elif a==2:
+                  print("your bus timing is 7am")
+          elif a==3:
+                  print("your bus timing is 11am")
+          elif a==4:
+                  print("your bus timing is 7pm")
+          elif a==5:
+                  print("your bus timing is 9pm")
+          else:
+                 print("please choose correct timing and try again")
+    elif b==4:
+          print("You have choosen  Rastogi travels to continue your Jurney")
+          print("From below timing schedule you can choose your slot")
+          a=["1-> 7.45am","2-> 9am","3-> 11.30am","4-> 7.45pm","5-> 9.25pm"]
+          for k in a:
+              print(k)
+          a=int(input("Enter the slot value you want to choose:-"))
+          if a==1:
+                print("your Bus timing is 7.45am")
+          elif a==2:
+                  print("your bus timing is 9am")
+          elif a==3:
+                  print("your bus timing is 11.30am")
+          elif a==4:
+                  print("your bus timing is 7.45pm")
+          elif a==5:
+                  print("your bus timing is 9.25pm")
+          else:
+                 print("please choose correct timing and try again")
+                 
+    else:
+        print("No other travel Agency is available pls select from above only")
+    print("From below select the type of seat you want")
+    type=["chair","sleeper"]
+    print(type,end="\n ")
+    c=input("Enter your type:-")
+    if c=="chair":
+        print("AC","\nNon-AC")
+        d=input("enter pls:-")
+        if d=="AC":
+            print("you choose AC chairs that cost you 100extra only")
+        elif d=="non-ac":
+            print("you choose NON-AC chairs \nno extra charges")
+        else:
+            print(" ")
+    elif c=="sleeper":
+          print("sleeper have only ac seats and it cost you 200 extra charges only")
+    print("\t\t\t\tYOUR TICKET IS GENRATING PLEASE WAIT FOR A WHILE:-")
+    print("__________________________")
+    print("__________________________")
+    print("_________________________")
+    print("\t\t\t\tYour Ticket is genrated with all information and your prefrences")
+    print("\t\tPlease pay your ticket amount before you get your ticke")
+    print("your  amount is:-350Ruppes")
+    print("you choose sleeper so 200ruppes extra")
+    print("your total is 550ruppes")
+    print("\t\tTypes of payment mode you have pls select")
+    payment=["paytm","phonepay","online Banking"]
+    for k in payment:
+        print(k)
+    a=input("Enter your payment mode:-")
+    print("pay 550ruppes with",a)
+    print("You payes 550ruppes Thank you")
+    print("____________________________")
+    print("\t\t\t\tyour Tickect is here--->")
+    print("\t\t\t\tBUS BOOKING ONLINE PLATFORM")
+    print("Name-",name)
+    print("age-",age)
+    print("gender-",gender)
+    print("destination-",destination)
+    print("Pickup point-",pickup_point)
+    print("Date-",travelling_date)
+    print("timing is-6am")
+    print("total amount=280+tax(0.8%)\ntotal=550ruppes") 
+
+
+
+    call this code by Bus_Booking()
